@@ -1,0 +1,102 @@
+body, .rest, .rest:hover{
+	font-family: Roboto;
+	color: #1D1D1D;
+}
+
+.sign{
+	border: 1px solid #E0E0E0;
+}
+
+#search{
+	background-image:url(img/icon-search2.svg); 
+	background-repeat: no-repeat; 
+	background-position: 3px 3px;
+}
+
+.card-img-top{
+ border-radius: 0;
+}
+
+.rest:hover{
+	text-decoration: none;
+}
+
+.rest:hover .card .card-body{
+	background-color: #F8F8F8;
+}
+
+.card{
+	border: none;
+}
+
+
+ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+hr{
+	background-color: white;
+	margin: 0;
+}
+
+.footer-end div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 576px) { 
+	
+	.add_1, .add_2{
+		padding: 0;
+		margin: 0;
+	}
+
+	.add_1 ul li:last-child{
+		margin-bottom: -15px;
+	}
+	
+	ul li{
+		margin-bottom: 15px;
+	}
+
+	.footerEnd div{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.basket{
+		display: none;
+
+	}
+
+	.uber-header .container, section .container{
+		padding: 0px;
+	}
+
+
+}
+
+#topBtn{
+	display:none;
+	position: fixed;
+	z-index: 99;
+	cursor: pointer;
+	bottom: 20px;
+	right: 20px;
+	border: none;
+	outline: none;
+	background-color: #59BD5A;
+	padding: 30px;
+	border-radius: 4px;
+}
+
